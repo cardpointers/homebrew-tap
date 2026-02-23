@@ -1,9 +1,9 @@
 class Cardpointers < Formula
   desc "CardPointers CLI — manage your credit card rewards from the terminal"
   homepage "https://cardpointers.com"
-  version "0.0.0"
-  url "https://github.com/cardpointers/cli/releases/download/v#{version}/cardpointers-#{version}.tar.gz"
-  sha256 "INSERT_SHA256_HERE"
+  version "1.0.3"
+  url "https://github.com/cardpointers/cli/releases/download/v1.0.3/cardpointers-1.0.3.tar.gz"
+  sha256 "32d39b765826b228d5b241dc64b1c6752fec987d8105c4aa7f984102b6349668"
   license "BUSL-1.1"
 
   depends_on "curl"
@@ -14,6 +14,6 @@ class Cardpointers < Formula
   end
 
   test do
-    assert_match "cardpointers", shell_output("#{bin}/cardpointers --help")
+    assert_match "cardpointers", shell_output("\#{bin}/cardpointers --help")
   end
 end
