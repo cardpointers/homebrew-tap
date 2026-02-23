@@ -1,9 +1,9 @@
 class Cardpointers < Formula
   desc "CardPointers CLI — manage your credit card rewards from the terminal"
   homepage "https://cardpointers.com"
-  version "1.0.5"
-  url "https://github.com/cardpointers/cli/releases/download/v1.0.5/cardpointers-1.0.5.tar.gz"
-  sha256 "6fa5ee0605ebf2d69bf8edba5abbdd9f2b01a2b6f0bbd1c7151351d6cd422c2a"
+  version "1.0.6"
+  url "https://github.com/cardpointers/cli/releases/download/v1.0.6/cardpointers-1.0.6.tar.gz"
+  sha256 "33d994cb18672945693520adb06c97ac26f93442fe5af001ad8d8b9ca46a306e"
   license "BUSL-1.1"
 
   depends_on "curl"
